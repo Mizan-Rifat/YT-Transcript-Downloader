@@ -1,0 +1,14 @@
+.yt-transcript-downloader-btn {
+  height: 40px;
+  width: 40px;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  color: var(--ytd-menu-renderer-button-color, var(--yt-spec-icon-inactive));
+}
+
+.yt-transcript-downloader-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
